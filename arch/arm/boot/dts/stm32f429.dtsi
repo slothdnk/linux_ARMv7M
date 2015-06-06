@@ -213,6 +213,11 @@
 			status = "disabled";
 		};
 
+		fb: fb@90700000 {
+			compatible = "st,vfb";
+			reg = <0x90700000 0x100000>;
+		};
+
 		rcc: rcc@40023810 {
 			#reset-cells = <1>;
 			compatible = "st,stm32-rcc";

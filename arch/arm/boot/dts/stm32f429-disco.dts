@@ -70,6 +70,10 @@
 	status = "okay";
 };
 
+&fb {
+	status = "okay";
+};
+
 &timer2 {
 	status = "okay";
 };
